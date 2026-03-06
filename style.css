@@ -1,0 +1,268 @@
+body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image:url('sfondo.jpeg');
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+}
+.profile-area {
+    margin:40px 0 0 0;               /* sopra destra sotto sinistra*/
+    background-color: #0f398c; 
+    width: 100%;               /* This makes the rectangle stretch across the screen */
+    padding: 15px;             /* This gives space inside the rectangle so it's tall */
+    display: flex;             /* This aligns your images/text in a row */
+    align-items: center;       /* This centers everything vertically */
+    gap: 20px;                 /* This puts a little gap between your images and text */
+    color: white;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+}
+.profile-area div{
+    flex:1;
+    text-align: center;
+}
+.programminglanguages-area {
+    display: flex;
+    max-width: 500px;
+    flex: 4;
+    flex-direction: column;
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.8);
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.programminglanguages-area img{
+    width: 100%;
+    height:auto;
+    margin-top: 6px;
+    margin-bottom:6px;
+}
+.contatti-area {
+    margin:0 0 0 0;               
+    background-color: #bdc0c5; 
+    width: 100%;              
+    padding: 5px;             
+    display: flex;             
+    align-items: center;       
+    gap: 2%;                
+    color: black;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.contatti-area div{
+    flex:1;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 50px 0;
+    width: 100%;
+}
+.video-box{
+    position: relative;
+    width :80%;
+    max-width: 850px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.2);
+}
+.layout-principale{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 30px;
+    width: 95%;
+    margin: 40px auto;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.polaroid-sinistra{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 200px;
+}
+.polaroid-destra{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 200px;
+}
+.polaroid-destra,.polaroid-sinistra{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    display: inline-block;
+    gap: 15px;
+    flex: 1 1 150px;
+}
+.polaroid-destra img, .polaroid-sinistra img{
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    max-width: 350px;
+}
+[class^="scotch-"]{
+    position: relative;
+    display: inline-block;
+}
+[class^="scotch-"]::after, [class^="scotch-"]::before{
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    background-color: rgba(225,225,200,0.4);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+/*tipo1 scotch alto-destra basso-sinistra*/
+.scotch-1 ::before{
+    top:-5px;
+    right:-10px;
+    transform: rotate(30deg);
+}
+.scotch-1 ::after{
+    top:-5px;
+    right:-10px;
+    transform: rotate(-30deg)!important;
+}
+/*tipo2 scotch alto-sinistra basso-destra*/
+.scotch-2 ::before{
+    top:40px;
+    right:-10px;
+    transform: rotate(-30deg);
+}
+.scotch-2 ::after{
+    top:40px;
+    right:-10px;
+    transform: rotate(30deg);
+}
+.quadrato-bianco {
+    margin:20px auto;               
+    background-color: rgba(225,225,225,0.5); 
+    width: 80%;               /* This makes the rectangle stretch across the screen */
+    padding: 15px;             /* This gives space inside the rectangle so it's tall */
+    display: flex;             /* This aligns your images/text in a row */
+    align-items: center;       /* This centers everything vertically */
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    justify-content: center;
+    }
+    .quadrato-bianco h1,.quadrato-bianco h3, .quadrato-bianco h6{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        display: block;
+    }
+    .quadrato-bianco1 {
+    margin: auto;               
+    background-color: rgba(225,225,225,0.5); 
+    width: 80%;  
+    box-sizing: border-box;
+    padding: 15px;             /* This gives space inside the rectangle so it's tall */
+    display: flex;             /* This aligns your images/text in a row */
+    align-items: center;       /* This centers everything vertically */
+    color: black;
+    border-radius: 25px;
+    flex-direction: column;
+    }
+    .descrizione{
+        padding: 0 40px;
+        text-align: center;
+    }
+    .quadrato-bianco2 {
+    margin:20px auto;               
+    background-color: rgba(225,225,225,0.5); 
+    width: 80%; 
+    box-sizing: border-box;     
+    padding: 15px;             /* This gives space inside the rectangle so it's tall */
+    display: flex;             /* This aligns your images/text in a row */
+    align-items: center;       /* This centers everything vertically */
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .media{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .immagini-soldati{
+        justify-content: center;
+        display: flex;
+    }
+      .quadrato-bianco3 {
+    margin:20px auto;               
+    background-color: rgba(225,225,225,0.5); 
+    width: 80%;               /* This makes the rectangle stretch across the screen */
+    padding: 15px;             /* This gives space inside the rectangle so it's tall */
+    display: flex;             /* This aligns your images/text in a row */
+    align-items: center;       /* This centers everything vertically */
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    justify-content: center;
+    }
+        .quadrato-bianco4 {
+    margin:20px auto;               
+    background-color: rgba(225,225,225,0.5); 
+    width: 80%;               /* This makes the rectangle stretch across the screen */
+    padding: 15px;             /* This gives space inside the rectangle so it's tall */
+    display: flex;             /* This aligns your images/text in a row */
+    align-items: center;       /* This centers everything vertically */
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    justify-content: center;
+    }
+        .quadrato-bianco5 {
+    margin:20px auto;               
+    background-color: rgba(225,225,225,0.5); 
+    width: 80%;               /* This makes the rectangle stretch across the screen */
+    padding: 15px;             /* This gives space inside the rectangle so it's tall */
+    display: flex;             /* This aligns your images/text in a row */
+    align-items: center;       /* This centers everything vertically */
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    justify-content: center;
+    }
+    .quadrato-bianco6{
+    margin:20px auto;               
+    background-color: rgba(225,225,225,0.5); 
+    width: 80%;               /* This makes the rectangle stretch across the screen */
+    padding: 15px;             /* This gives space inside the rectangle so it's tall */
+    display: flex;             /* This aligns your images/text in a row */
+    align-items: center;       /* This centers everything vertically */
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    justify-content: space-between;
+    }
+
+    
