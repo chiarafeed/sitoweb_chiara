@@ -12,7 +12,7 @@ Il sito è un piccolo viaggio visivo che unisce:
 Per questo progetto ho usato per la prima volta:
 - **HTML5**: Per la struttura e i contenuti.
 - **CSS3**: Per lo stile, i colori e il layout (sto lottando con i margini, ma sto vincendo io!).
-- **Javascript**: arrivera nei futuri commit.
+- **Javascript**: Per l'ingrandimento delle immagini e il cursore personalizzato.
 
 ## 🚀 Work in Progress
 Visto che è il mio primo sito, ci sono ancora alcune cose da sistemare:

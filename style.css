@@ -2,7 +2,7 @@ body{
     margin:0;
     padding: 0;
     overflow-x: hidden;
-    background-image:url('sfondo.jpeg');
+    background-image:url('img/sfondo.jpeg');
     background-size: cover; 
     background-position: center;
     background-attachment: fixed; 
