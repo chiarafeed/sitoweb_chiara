@@ -293,5 +293,47 @@ body{
     border-radius: 25px;
     justify-content: space-between;
     }
+    .tryhackme{
+        margin: 10px;
+        width: 30%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    .tryhackme iframe{
+        width: 100%;
+        border: none;
+        display: block;
+    }
+     .duolingo{
+        margin: 10px;
+        width: 40%;
+        overflow: visible;
+        height: auto;
+    }
+    .duolingo iframe{
+        min-height: 200px;
+        width: 100%;
+        border: none;
+        display: block;
+    }
+    .chess{
+        margin: 10px;
+        width: 33%;
+        overflow: visible;
+        height: auto;
+    }
+    .chess iframe{
+        max-height: 218px;
+        width: 100%;
+        border: none;
+        display: block;
+    }
+    .contenitore-banner{
+        color: rgba(0,0,0,0.2);
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+    }
+
 
     
