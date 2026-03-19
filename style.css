@@ -334,6 +334,18 @@ body{
         flex-direction: column;
         padding: auto;
     }
+    .quadrato-bianco7{
+    margin:20px auto;               
+    background-color: rgba(225,225,225,0.5); 
+    width: 80%;               /* This makes the rectangle stretch across the screen */
+    padding: 15px;             /* This gives space inside the rectangle so it's tall */
+    display: flex;             /* This aligns your images/text in a row */
+    align-items: center;       /* This centers everything vertically */
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    justify-content: space-between;
+    }
 
 
     
