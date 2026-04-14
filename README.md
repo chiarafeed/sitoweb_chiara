@@ -1,6 +1,11 @@
 # 🌿 Portfolio Artistico: Il mio primo esperimento Web
 
 Ciao! Benvenuti nel mio repository. Questo è il mio primissimo approccio al mondo del codice (**HTML** e **CSS**). Ho deciso di tentare questa impresa per dare una casa digitale alle mie illustrazioni e alle mie passioni.
+⚖️ License & Copyright
+
+-**Code**: The source code of this website is licensed under the MIT License.
+-**Artwork & Content**: All drawings, illustrations, and text content are Chiara Scola's. All rights reserved. You may not use, redistribute, or modify the artwork
+without express written permission.
 
 ## ✨ Cosa troverai in questo progetto
 Il sito è un piccolo viaggio visivo che unisce:
